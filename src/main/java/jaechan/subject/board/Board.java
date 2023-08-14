@@ -3,12 +3,14 @@ package jaechan.subject.board;
 import jaechan.subject.user.User.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Builder
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name="board_tbl")
